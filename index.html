@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人展示页</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#profile">个人信息</a></li>
+            <li><a href="#articles">技术文章</a></li>
+            <li><a href="#projects">项目展示</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="profile" class="card">
+            <h2><i class="fas fa-user-circle"></i> 个人信息</h2>
+            
+            <div class="profile-container">
+                <div class="profile-basic">
+                    <img src="img/avatar.png" alt="个人头像" class="profile-avatar">
+                    <div class="basic-info">
+                        <h3 class="profile-name">limoumou</h3>
+                        <div class="info-line">
+                            <i class="fas fa-envelope"></i>
+                            <span>l@aliyun.com</span>
+                        </div>
+                        <div class="info-line">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>北京 · 朝阳区</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://space.bilibili.com/你的ID" target="_blank">
+                            <i class="fab fa-bilibili"></i> Bilibili
+                        </a>
+                        <a href="https://blog.csdn.net/id" target="_blank">
+                            <i class="fab fa-dev"></i> CSDN
+                        </a>
+                        <a href="#weixin"  target="_blank" class="wechat-popup">
+                            <i class="fab fa-weixin" aria-hidden="true"></i> Wechat
+                            <span class="qrcode">
+                                <img src="img/wechat.jpg" width="100%" alt="微信公众号二维码">
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+            <div class="info-grid">
+                <div class="info-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>教育背景</h3>
+                    <p>XX大学 · 信息安全<br>2020-2024</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-code"></i>
+                    <h3>技术技能</h3>
+                    <p>Go/Java<br>Python/Three.js</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>工作经历</h3>
+                    <p>企业 · 安全运维<br>2024.4-至今</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-trophy"></i>
+                    <h3>荣誉奖项</h3>
+                    <p>CISP<br>软考-信息安全工程师</p>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section id="articles" class="card">
+            <h2><i class="fas fa-book-open"></i> 技术文章</h2>
+            <article class="article-list">
+                <div class="article-item">
+                    <h3>HTTPS认证过程详解
+                        <a href="https://www.yuque.com/xxx" class="external-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </h3>
+                    <p>随着互联网安全意识的提高，HTTPS协议已成为现代网络通信的标准。HTTPS通过SSL/TLS协议为HTTP提供加密和认证，确保数据传输的安全性。本报告将深入剖析HTTPS认证过程，从基础概念到具体实现，全面解析这一保障网络通信安全的关键机制。
+                    </p>
+
+                </div>
+                <div class="article-item">
+                    <h3>前端工程化实践1</h3>
+                    <p>TESTSTTSAASDASFD</p>
+                    <a href="articles/1.html" class="external-link" target="_blank">
+                        阅读全文 <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                <div class="article-item">
+                    <h3>前端工程化实践2</h3>
+                    <p>TESTSTTSAASDASFD</p>
+                    <a href="articles/2.html" class="external-link" target="_blank">
+                        阅读全文 <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                <div class="article-item">
+                    <h3>前端工程化实践3</h3>
+                    <p>TESTSTTSAASDASFD</p>
+                    <a href="https://www.yuque.com/你的语雀路径" class="external-link" target="_blank">
+                        阅读全文 <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                <div class="article-item">
+                    <h3>前端工程化实践4</h3>
+                    <p>TESTSTTSAASDASFD</p>
+                    <a href="https://www.yuque.com/你的语雀路径" class="external-link" target="_blank">
+                        阅读全文 <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                <div class="article-item">
+                    <h3>前端工程化实践5</h3>
+                    <a href="https://www.yuque.com/你的语雀路径" class="external-link" target="_blank">
+                        阅读全文 <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                <div class="article-item">
+                    <h3>前端工程化实践6</h3>
+                    <a href="https://www.yuque.com/你的语雀路径" class="external-link" target="_blank">
+                        阅读全文 <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                <div class="article-item">
+                    <h3>${文章标题}7</h3>
+                    <div class="article-content">
+                        <p>${文章内容}</p>
+                    </div>
+                    <div class="article-actions">
+                        <a href="${链接地址}" class="external-link">阅读全文<i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </article>
+            <div class="pagination-controls">
+                <button class="page-prev" onclick="changePage(-1)">‹</button>
+                <div class="page-numbers" id="page-numbers"></div>
+                <button class="page-next" onclick="changePage(1)">›</button>
+            </div>
+        </section>
+        <br>
+        <section id="projects" class="card">
+            <h2><i class="fas fa-code-branch"></i> 项目展示</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>个人展示页</h3>
+                    <p>基于Github Pages的个人展示页面</p>
+                    <div class="tech-stack">
+                        <span>Html</span>
+                        <span>Css</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>数据分析平台</h3>
+                    <p>大数据可视化分析工具</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>D3.js</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>数据分析平台</h3>
+                    <p>大数据可视化分析工具</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>D3.js</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>数据分析平台</h3>
+                    <p>大数据可视化分析工具</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>D3.js</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <script src="nav.js"></script>
+</body>
+</html>
+<script>
+// 初始化分页
+window.addEventListener('DOMContentLoaded', initPagination);
+</script>
