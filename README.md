@@ -1,4 +1,6 @@
-# onepage 个人展示页
+# onepage 个人主页
+
+使用Trae+DeepSeek搭建个人主页，用于简历、博客等
 
 ## 技术栈
 
@@ -27,3 +29,8 @@ html加密 https://www.appbs.cn/htmlphpjs/index.html
     ├── 2.html  # 文章2
     ├── 3.html  # 文章3
     ├── 4.html  # 文章4
+```
+
+## 开发过程
+
+- https://www.bilibili.com/video/BV1x5dXYzEHg/
